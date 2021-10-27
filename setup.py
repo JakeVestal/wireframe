@@ -35,5 +35,5 @@ setup(
     ],
     packages=["wireframe"],
     include_package_data=True,
-    install_requires=["numpy", "pandas", "dash"]
+    install_requires=["numpy", "pandas", "dash", "waitress"]
 )
