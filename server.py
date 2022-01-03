@@ -1,5 +1,5 @@
-# Test line
+# Serve app on a local port via waitress
 from waitress import serve
-from wireframe import app
+import app
 
 serve(app.server, host='localhost', port=3000)
